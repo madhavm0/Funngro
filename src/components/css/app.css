@@ -1,0 +1,683 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    right: 10vw;
+}
+
+.logo ul li {
+    padding: 20px;
+    /* background-color: aqua; */
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+.navul1:hover {
+    color: #55e07a;
+    opacity: 0.8;
+    background-color: #201245;
+}
+
+.navul2:hover {
+    color: #55e07a;
+    opacity: 0.8;
+    background-color: #201245;
+}
+
+.navul3:hover {
+    color: #55e07a;
+    opacity: 0.8;
+    background-color: #201245;
+}
+
+.logo1 {
+    margin-left: 5vw;
+    height: 8vh;
+    width: 12vw;
+}
+
+.logo2 img {
+    /* margin-left: 5vw; */
+    /* background-color: aqua; */
+    height: 18px;
+    width: 20px;
+}
+
+nav {
+    height: 10vh;
+    background-color: #edece8;
+    margin: 0, 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+body {
+    /* background-color: #edece8; */
+}
+
+.carousel {
+    margin-left: 10vw;
+    height: 400px;
+    width: 800px;
+}
+
+.container-1 {
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.c1-1 {
+    padding-left: 30px;
+    /* background-color: aqua; */
+    height: 100%;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.c1-1 span {
+    font-weight: bold;
+    color: #201245;
+    font-size: 50px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.c1-2 {
+    height: 100%;
+    width: 60vw;
+    padding: 40px;
+    /* background-color: aqua; */
+}
+
+.container-2 {
+
+    margin: auto;
+    height: 150px;
+    color: #090245;
+    background-color: #55e07a;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    border-color: #090245;
+}
+
+
+.container-2 div {
+    margin: auto;
+}
+
+#c2p {
+
+    font-size: 38px;
+}
+
+.container-3 {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-3 h1 {
+    margin-top: 5vh;
+}
+
+.container-3 p {
+    font-weight: bold;
+}
+
+.cards {
+    width: 92vw;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vh;
+    /* background-color: aqua; */
+}
+
+.c3c {
+    margin: 10px;
+    height: 40vh;
+    padding: 7vh;
+    width: 22vw;
+    background-color: #edece8;
+    border: 2px solid #090245;
+    border-radius: 10px;
+}
+
+.c3c img {
+    height: 10vh;
+    width: 6vw;
+}
+
+.c3c:hover {
+    color: #090245;
+    background-color: #55e07a;
+}
+
+.container-4 {
+    /* background-color: aqua; */
+    margin: auto;
+    height: 160vh;
+    width: 76vw;
+    /* border: 5px solid black; */
+    border-radius: 1300px;
+}
+
+.circle1 {
+    /* background-color: azure; */
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 1vh;
+    /* top: 1vh; */
+    left: 42vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle1:hover p {
+    display: none;
+}
+
+.circle1:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle1:hover::after {
+    content: 'Manage Social media pages of companies';
+}
+
+.circle2 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 13vh;
+    /* top: 1vh; */
+    left: 25vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle2:hover p {
+    display: none;
+}
+
+.circle2:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle2:hover::after {
+    content: 'Create & edit videos with your video creation skills';
+}
+
+.circle3 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 43vh;
+    /* top: 1vh; */
+    left: 14vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle3:hover p {
+    display: none;
+}
+
+.circle3:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle3:hover::after {
+    content: 'Design and build a website for companies';
+}
+
+.circle4 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 115vh;
+    /* top: 1vh; */
+    left: 25vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle4:hover p {
+    display: none;
+}
+
+.circle4:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle4:hover::after {
+    content: 'Create Reels, posts and videos for social media handles of companies';
+}
+
+.circle5 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 14vh;
+    /* top: 1vh; */
+    right: 24.5vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle5:hover p {
+    display: none;
+}
+
+.circle5:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle5:hover::after {
+    content: 'Develop market ready apps for companies';
+}
+
+.circle6 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 46vh;
+    /* top: 1vh; */
+    right: 14vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle6:hover p {
+    display: none;
+}
+
+.circle6:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle6:hover::after {
+    content: 'Create databases with your data research skills';
+}
+
+.circle7 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 115vh;
+    /* top: 1vh; */
+    right: 25vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle7:hover p {
+    display: none;
+}
+
+.circle7:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle7:hover::after {
+    content: 'Complete surveys and research assignments for Companies';
+}
+
+.circle8 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 83vh;
+    /* top: 1vh; */
+    right: 14vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle8:hover p {
+    display: none;
+}
+
+.circle8:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle8:hover::after {
+    content: 'Create Logos, Brochures, pamphlets, website, posts etc';
+}
+
+.circle9 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 83vh;
+    /* top: 1vh; */
+    left: 14vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle9:hover p {
+    display: none;
+}
+
+.circle9:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle9:hover::after {
+    content: 'Record Voice for Companies with you voice over skills';
+}
+
+.circle10 {
+    height: 30vh;
+    width: 14vw;
+    position: absolute;
+    margin-top: 127vh;
+    /* top: 1vh; */
+    left: 42vw;
+    border: 2px;
+    border-radius: 300px;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle10:hover p {
+    display: none;
+}
+
+.circle10:hover {
+    color: #55e07a;
+    background-color: #201245;
+}
+
+.circle10:hover::after {
+    content: 'Drive sales for companies by acquiring customers';
+}
+
+.circle-m {
+    /* background-color: blue; */
+    color: #edece8;
+    background-color: #201245;
+    height: 85vh;
+    width: 40vw;
+    margin-top: 37vh;
+    position: absolute;
+    left: 29.5vw;
+    border: 5px;
+    border-radius: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding: 75px;
+}
+
+.circle-m span {
+    margin-bottom: 25px;
+    font-size: 40px;
+}
+
+.container-7 {
+    margin-top: 20vh;
+    height: 120vh;
+}
+
+.c7div {
+    font-size: 20px;
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c7div p {
+    margin-top: 20px;
+}
+
+.container-8 {
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.c8main {
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 5vh;
+    text-align: center;
+}
+
+.c8cards {
+    /* background-color: blueviolet; */
+}
+
+.c8c {
+    width: 60vw;
+    height: 10vh;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.c8cdiv1 {
+    width: 10%;
+    background-color: #55e07a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid black;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.c8cdiv2 {
+    width: 90%;
+    color: #090245;
+    background-color: #edece8;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.c8csub1 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.c8csub2 {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-9 {
+    background-color: aqua;
+    height: 100vh;
+}
+
+.container-11 {
+    height: 100vh;
+}
+
+.c11div {
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.c11sub1 {
+    height: 100%;
+    background-color: #edece8;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 {
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 25vh;
+    width: 12vw;
+}
+
+.img2 {
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 15vh;
+    width: 20vw;
+}
+
+.c11sub2 {
+    width: 70%;
+    background-color: #edece8;
+    display: flex;
+    flex-direction: column;
+}
+
+.c11-1 {
+    padding: 70px;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.c11-1 a img {
+    margin-left: 70px;
+}
+
+.c11-1 p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.c11-2 {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.c11-2 hr {
+    /* margin: auto; */
+    width: 60%;
+}
+
+.c11-3 {
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+.c11d2 {
+    height: 100%;
+    width: 50%;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c11-3 a {
+    padding-top: 10px;
+    text-decoration: none;
+    color: #090245;
+}
+
+footer {
+    height: 20%;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edece8;
+}
